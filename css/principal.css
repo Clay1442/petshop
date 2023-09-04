@@ -197,3 +197,62 @@ Trabalhando com a página curiosidades
 #curiosidades dd p a[href="#topo"]:hover {
     background: url(/imagens/seta-voltar-hover.png) no-repeat left center;
 }
+
+/* Página de Produto */
+
+#produtos table {
+    width: 600px;
+     margin: 50px auto 30px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#produtos th, #produtos td {
+    border: 999 solid 1px;
+    padding: 5px;
+}
+ #produtos caption{
+    background-color: #999;
+    color: white;
+    padding: 15px 0;
+    font-size: 1.5em;
+ }
+#produtos td [colspan] {
+    font-style: italic;
+    font-weight: bold;
+    color: #999;
+}
+#produtos tr:hover {
+ background-color: yellow;
+
+}
+/* página do boletim */
+
+#boletim h2 {
+    font-size: 1.75em;
+    background:#c0262c url(/imagens/back-bolinha.gif) repeat top center;
+    color: white;
+    padding: 10px;
+    width: 316px;
+    font-family: Roboto Extrabold;
+}
+ 
+/* Trabalhando com os formulários */
+ form{
+    background-color: #999;
+    margin: 30px 0;
+    padding: 20px;
+  border-radius: 0 15px;
+}
+input[type="submit"] {
+    background-color:#c0262c;
+    background: linear-gradient(to bottom, #6b1516 0%,#c0262c 30%,#c0262c 70%, #6b1516 100%);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: #fff;
+    padding:10px 30px;
+    margin: 20px 0;
+    text-shadow: white 2px 2px 5px;
+    cursor: pointer;
+}
