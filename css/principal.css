@@ -310,6 +310,8 @@ label {
 #banhoetosa fieldset p {
     float: left;
     padding-left: 20px;
+    margin: 10px 0px 10px 0px;
+    display: block;
 }
 
 #banhoetosa fieldset label {
@@ -338,6 +340,25 @@ label {
 #banhoetosa fieldset p.labelsimples{
     float: none !important;
 }
+#banhoetosa p::first-line{
+    font-size:1.2em;
+    font-variant: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Roboto Regular;
+    }
+
+#banhoetosa main h2{
+    background: #fef84f url(/imagens/postit.jpg) no-repeat top left;
+    color:#6b1516;
+    padding: 35px;
+    width: 207px;
+    height: 115px;
+    font-size: 1.3125em;
+    letter-spacing: 0.07em;
+    font-family: Roboto Extrabold;
+    line-height: 1.2em;}
+
 
 
 
