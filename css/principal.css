@@ -552,22 +552,24 @@ nav  ul li a:hover, nav ul li a:active {
 footer {
     clear: both;
     border: 10px solid #c0262c;
-    background-color: #000;
+    background-color: #fff;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 footer p{
-    margin: 0px;
+    margin: -10px;
     float:left;
     width:200px;
     padding: 0 30px
 }
 
 footer p a{
-    color: #fff;
-    
+    color: #000;
+    text-decoration: none
 }
 
 footer p a:hover {
@@ -575,3 +577,38 @@ footer p a:hover {
     text-decoration: none;
     background-color: #c0262c;
 }
+
+#sistema {
+    position:absolute;
+    background-color: #fff;
+    width: 50px;
+    right: 10px;
+    border: #c0262c solid 1px;
+    border-radius: 100px;
+    top: -0px;
+}
+
+  /* página obrigado*/
+
+#obrigado main p img{
+    float: left;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+    border: #bb2227 solid thin;
+    background-color: #fff;
+}
+
+    #destaqueobrigado{
+        position:relative;
+        border:solid #c0262c 1px;
+        border-radius: 0 25px;
+        padding:5px 25px;
+        margin:20px 0;
+    }
+
+    #obrigado #lacinho {
+        position:absolute;
+        top: -20px;
+        right: -20px;
+    }
+    
