@@ -99,7 +99,7 @@ Trabalhando com a página curiosidades
 
 #curiosidades h2{
     background-color: #c0262c;
-    background-image: url(/imagens/importante-saber.jpg), url(/imagens/back-bolinha.gif);
+    background-image: url(../imagens/importante-saber.jpg), url(../imagens/back-bolinha.gif);
     background-repeat: no-repeat, repeat;
     background-position: center right, center center;
     color: white;
@@ -124,7 +124,7 @@ Trabalhando com a página curiosidades
 }
 #curiosidades ul li {
     list-style-type: none;
-    list-style-image: url(/imagens/ossinho.png);
+    list-style-image: url(../imagens/ossinho.png);
     list-style-position: inside;
     margin: 30px 0;
 }
@@ -184,7 +184,7 @@ Trabalhando com a página curiosidades
 }
 
 #curiosidades dd p a[href="#topo"] {
-    background: url(/imagens/seta-voltar.png) no-repeat left center;
+    background: url(../imagens/seta-voltar.png) no-repeat left center;
     text-decoration: none;
     color: #c0262c;
     font-variant: normal;
@@ -195,83 +195,87 @@ Trabalhando com a página curiosidades
 }
 
 #curiosidades dd p a[href="#topo"]:hover {
-    background: url(/imagens/seta-voltar-hover.png) no-repeat left center;
+    background: url(../imagens/seta-voltar-hover.png) no-repeat left center;
 }
-#curiosidades header #anuncio{
+
+#curiosidades header #anuncio {
     width: 510px;
     float: left;
     margin: 80px auto auto;
     padding-top: 0px;
-        }
-        #curiosidades header section{
-            padding-top: 70px;
-        }
-        #curiosidades header section a[href="boletim.html"]{
-            border: #c0262c solid thin;
-            padding: 10px;
-            border-radius:10px;
-            color: #c0262c;
-            text-decoration: none;
-            font-variant: all-small-caps;
-            font-style: normal;
-            font-size: 1em;
-        }
-    
-        #curiosidades header section p {
-    
-            color: #999;
-            margin: 30px auto 10px;
-            font-style:normal;
-            font-variant: all-small-caps;
-        }
-    
-        #curiosidades header section figure {
-        width: 1000px;
-        margin: 0px;
-        border: none;
-        padding-top: 0px;
-    }
-    #curiosidades header section figure a {
-        padding: 25px 5px 0;
-        border:none
-     }
-     #curiosidades header section figure a:first-child{
-        padding: 25px 5px 0 0;
-    }
-    #curiosidades header section figure a:last-child {
-        padding: 25px 0 0 5px;
-    }
-    
-    #curiosidades nav{
-       font-family: Roboto Extrabold;
-        background-color:#000;
-        overflow: auto;
-        clear:both;
-        margin-top: 10px;
-    
-    }
-    #curiosidades nav ul{
-        list-style: none;
-        padding-left: 0px;
-        margin-top: 1px;
-    }
-    
-    #curiosidades nav ul li{
-        float:left;
-        list-style: none;
-         }
-    
-    #curiosidades nav ul li a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 1em;
-        padding: 10px 50px;
-        line-height: 2em;
-        }
-    #curiosidades nav  ul li a:hover, nav ul li a:active {
-        background-color: #c0262c;
-        display: block;
-    }
+}
+
+#curiosidades header section {
+    padding-top: 70px;
+}
+#curiosidades header section a[href="boletim.html"] {
+    border: #c0262c solid thin;
+    padding: 10px;
+    border-radius: 10px;
+    color: #c0262c;
+    text-decoration: none;
+    font-variant: all-small-caps;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#curiosidades header section p {
+    color: #999;
+    margin: 30px auto 10px;
+    font-style: normal;
+    font-variant: all-small-caps;
+}
+#curiosidades header section figure {
+    width: 100%;
+    margin: 0px;
+    border: none;
+    padding-top: 0px;
+}
+#curiosidades header section figure a {
+    padding: 25px 5px 0;
+    border: none;
+}
+#curiosidades header section figure a:first-child {
+    padding: 25px 5px 0 0;
+}
+#curiosidades header section figure a:last-child {
+    padding: 25px 0 0 5px;
+}
+#curiosidades nav {
+    background-color: #000;
+    overflow: auto;
+    clear: both;
+    margin-top: 10px;
+    font-family: Roboto Extrabold;
+}
+#curiosidades nav ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 1px;
+}
+#curiosidades nav ul li {
+    float: left;
+    margin: 0 auto 0 auto;
+    width: 200px;
+    text-align: center;
+    list-style: none;
+}
+#curiosidades nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0 8px 0 50px;
+    line-height: 2em; 
+  
+}
+#curiosidades nav ul li a:hover {
+    background-color: #c0262c;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+ 
 /* Página de Produto */
 
 #produtos table {
@@ -525,7 +529,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
-    padding: 10px 50px;
+    padding: 0px 50px;
     line-height: 2em;
 }
 nav  ul li a:hover, nav ul li a:active {
@@ -612,3 +616,49 @@ footer p a:hover {
         right: -20px;
     }
     
+    /* Animações da  Index */
+
+    .anuncioanime {
+        margin: 0 0 10px;
+       padding: 0;
+       overflow: auto;
+    }
+
+    .anuncioanime .boxanuncio {
+        width: 163px; 
+        height:230px;
+        border-bottom: solid thin #c0262c;
+        float:left;
+        position:relative;
+        overflow:hidden;
+    }
+
+    .anuncioanime .boxanuncio p {
+        text-align: center;
+        font-size: 0.95em;
+        line-height: 1.3em;
+        background-color: rgba(225, 225, 255, 1);
+        position: absolute;
+        border-left: #c0262c thin solid;
+        border-right: #c0262c thin solid;
+        margin: 0;
+        padding: 10px 15px;
+        position:absolute;
+        bottom: -80px; 
+        left:0;
+        transition: linear 1s 0.1s; 
+        cursor: default;
+            }
+    .anuncioanime .boxanuncio p:first-line {
+        font-size: 1.1em;
+        font-variant: inherit;
+        font-style: normal;
+        font-weight: bolder;
+        color: #c0262c;
+        padding: 0;
+    }
+    
+    .anuncioanime .boxanuncio p:hover {
+    background-color: rgba(225, 225, 255, 0.7);
+    bottom: 0px;
+}    
