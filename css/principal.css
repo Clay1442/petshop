@@ -662,3 +662,8 @@ footer p a:hover {
         background-color: rgba(255, 255, 255, 0.7);
         bottom: 0px;
     }
+
+    /* controle de audio*/
+    #inicio aside audio {
+        width: 230px;
+    }
