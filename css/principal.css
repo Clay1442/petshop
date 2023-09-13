@@ -666,4 +666,19 @@ footer p a:hover {
     /* controle de audio*/
     #inicio aside audio {
         width: 230px;
+        padding-right: 20px;
     }
+    /* controle de vídeo*/
+ aside video {
+    width: 190px;
+    border: #c0262c thin solid;
+    padding: 20px;
+    border-radius: 50px;
+ }
+ video::-webkit-media-controls-play-button {
+    background-color: #f00;
+    border-radius: 50%;
+    width: 3px;
+ }
+
+ 
