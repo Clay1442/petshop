@@ -680,5 +680,16 @@ footer p a:hover {
     border-radius: 50%;
     width: 3px;
  }
-
+ 
+ @media screen and (max-width: 419px) {
+    #inicio main {
+        background-color: #fef84f ;
+    }
+    
+  }
+  
+@media  screen (min-width: 576px) { 
+ 
+ }
+ 
  
