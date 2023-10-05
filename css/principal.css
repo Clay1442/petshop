@@ -559,7 +559,7 @@ footer {
     background-color: #fff;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 18px;
     position: relative;
     margin-bottom: 50px;
 }
@@ -568,7 +568,8 @@ footer p{
     margin: -10px;
     float:left;
     width:200px;
-    padding: 0 30px
+    padding: 0 30px;
+    color: #fff;
 }
 
 footer p a{
@@ -691,5 +692,9 @@ footer p a:hover {
 @media  screen (min-width: 576px) { 
  
  }
+
+#sistema {
+    
+}
  
  
