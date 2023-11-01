@@ -555,11 +555,11 @@ nav  ul li a:hover, nav ul li a:active {
 
 footer {
     clear: both;
-    border: 10px solid #c0262c;
-    background-color: #fff;
+    border: 7px solid #c0262c;
+    background-color: #000;
     color: white;
     text-align: center;
-    padding: 18px;
+    padding: 20px;
     position: relative;
     margin-bottom: 50px;
 }
@@ -573,7 +573,7 @@ footer p{
 }
 
 footer p a{
-    color: #000;
+    color: #fff;
     text-decoration: none
 }
 
@@ -590,7 +590,7 @@ footer p a:hover {
     right: 10px;
     border: #c0262c solid 1px;
     border-radius: 100px;
-    top: -0px;
+    top: -9px;
 }
 
   /* página obrigado*/

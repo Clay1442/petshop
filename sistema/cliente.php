@@ -26,42 +26,101 @@
                                     <h5>Formulário do Cliente</h5>
                                 </div>
                                 <div class="card-body">
-                                    <form action="scripts/cadastrocliente.php" method="post" enctype="multipar/form-data" >
-                                        <div class="mb-3">
+                                    <form action="scripts/cadastrocliente.php" enctype="multipart/form-data"
+                                        method="post">
+                                        <div class="mb-1">
                                             <label for="nome" class="form-label">Nome Completo</label>
                                             <input type="text" class="form-control" name="nome" id="nome"
                                                 placeholder="Digite seu nome" autocomplete="off" required>
                                         </div>
-                                        <div class="mb-3">
+                                        <div class="mb-1">
                                             <label for="email" class="form-label">E-mail</label>
                                             <input type="email" class="form-control" name="email" id="email"
                                                 placeholder="Digite seu e-mail" autocomplete="off" required>
                                         </div>
-                                        <div class="mb-3">
+                                        <div class="mb-1">
                                             <label for="telefone" class="form-label">Telefone</label>
-                                            <input type="text" class="form-control" name="telefone" id="telefone"
-                                                 placeholder="Digite o seu" autocomplete="off" required>
-                                        </div>                           
-                                        
-                                        <div class="mb-3">
-                                            <label for="foto" class="form-label">Envie sua foto</label>
-                                            <input type="file" class="form-control" name="foto" id="foto"
-                                                 autocomplete="off" required>
+                                            <input type="number" class="form-control" name="telefone" id="telefone"
+                                                placeholder="Digite seu telefone" autocomplete="off" required>
                                         </div>
-                                        <div class="mb-3">
+                                        <div class="mb-1">
                                             <label for="cpfcnpj" class="form-label">CPF/CNPJ</label>
                                             <input type="number" class="form-control" name="cpfcnpj" id="cpfcnpj"
-                                             placeholder="Digite seu cpf ou cnpj"    autocomplete="off" required>
+                                                placeholder="Digite seu CPF ou CNPJ" autocomplete="off" required>
                                         </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="mb-1">
+                                                    <label for="cep" class="form-label">CEP</label>
+                                                    <input type="number" class="form-control" name="cep" id="cep"
+                                                        placeholder="Digite seu CEP" autocomplete="off" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="mb-1">
+                                                    <label for="logradouro" class="form-label">Logradouro</label>
+                                                    <input type="text" class="form-control" name="logradouro"
+                                                        id="logradouro" placeholder="Digite seu Logradouro"
+                                                        autocomplete="off" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                        <div class="col-4">
+                                                <div class="mb-1">
+                                                    <label for="numero" class="form-label">Nº</label>
+                                                    <input type="number" class="form-control" name="numero" id="numero"
+                                                        placeholder="Digite seu CEP" autocomplete="off" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="mb-1">
+                                                    <label for="complemento" class="form-label">Complemento</label>
+                                                    <input type="text" class="form-control" name="complemento"
+                                                        id="complemento" placeholder="Complemento"
+                                                        autocomplete="off" required>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                            <div class="mb-1">
+                                                    <label for="bairro" class="form-label">Bairro</label>
+                                                    <input type="text" class="form-control" name="bairro"
+                                                        id="bairro" placeholder="Bairro"
+                                                        autocomplete="off" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                            <div class="mb-1">
+                                                    <label for="cidade" class="form-label">Cidade</label>
+                                                    <input type="text" class="form-control" name="cidade"
+                                                        id="cidade" placeholder="Cidade"
+                                                        autocomplete="off" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                            <div class="mb-1">
+                                                    <label for="uf" class="form-label">Estado</label>
+                                                    <input type="text" class="form-control" name="uf"
+                                                        id="uf" placeholder="Estado"
+                                                        autocomplete="off" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-1">
+                                            <label for="foto" class="form-label">Envie a foto</label>
+                                            <input type="file" class="form-control" name="foto" id="foto"
+                                                autocomplete="off" required>
+                                        </div>
+                                        <input type="submit" class="btn btn-primary" value="Enviar">
                                     </form>
-                                        <h4 class="card-title">Title</h4>
-                                        <p class="card-text">Text</p>
+                                    
                                 </div>
-                            </div>  
+                            </div>
                         </div>
                     </div>
-                    <div class="col-4">Column</div>
-                    <div class="col-4">Column</div>
                 </div>
         </div>
 

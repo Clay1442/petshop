@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	
-	<body>
-	<div class="wrapper">
+
 <head>
-	<?php 
-	include 'parts/header.php';
-	?> 	 	 	
-
 <?php
- include 'parts/nav.php';
-?>	
-		<div class="main">
-      <?php
-  include 'parts/topo.php';
-  ?>
-  
-  <h2>Área animal</h2>
+		include 'parts/header.php';
+	?>
 
- 
- <?php 
-		include 'parts/footer.php';
+<body>
+	<div class="wrapper">
+		<?php
+			include 'parts/nav.php';
 		?>
+
+		<div class="main">
+		<?php
+		include 'parts/topo.php';
+		?>
+		<h2>Esse espaço é do conteúdo</h2>				
+
+			
+			<?php
+				include 'parts/footer.php';
+			?>
+			
+		</div>
+	</div> 
+
 	<script src="js/app.js"></script>
 
 </body>
